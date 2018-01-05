@@ -1,4 +1,5 @@
-# Code your solution here!
+require "pry"
+
 def run_guessing_game
   user_input = nil
   while user_input != "exit"
