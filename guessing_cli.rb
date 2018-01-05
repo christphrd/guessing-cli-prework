@@ -7,9 +7,9 @@ def run_guessing_game
     user_input = gets.chomp
     number = rand(1..6)
     binding.pry
-    if user_input == number
+    if user_input == number.to_s
       puts "You guessed the correct number!"
-    elsif user_input != number
+    else
       puts "The computer guessed #{number}."
     end
   end
